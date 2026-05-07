@@ -5,7 +5,6 @@ from implementation.answer import answer_question
 
 load_dotenv(override=True)
 
-
 def format_context(context):
     result = "<h2 style='color: #ff7800;'>Relevant Context</h2>\n\n"
     for doc in context:
